@@ -1,0 +1,66 @@
+.mayusculaverdana{
+    font-family: 'Verdana'; 
+    font-size: 28px;
+}
+
+.mayusculaverdanatitulo{
+    font-family: 'Verdana'; 
+    font-size: 38px;
+}
+.minusculaverdana{
+    font-family: 'Verdana'; 
+    font-size: 17px;
+}
+
+.derecha{
+    float: right;
+}
+
+.justificado{
+    text-align: justify;
+}
+
+.izquierda{
+    float: left;
+}
+.centro{
+    text-align: center;
+}
+
+.bebas{
+    font-family: 'Bebas';
+}
+
+.h1portada{
+    font-family: 'Verdana'; 
+    font-size: 50px;
+}
+/*PC*/
+@media screen and (min-width: 960px) {
+    #contenedor {
+     width: 100%;
+     margin: auto;
+    }
+   }
+   
+   /*Tablet*/
+   @media screen and (min-width: 480px) and (max-width: 960px) {
+    #contenedor {
+     width: 100%;
+     margin: auto;
+    }
+    .item {
+     width: 25%;
+    }
+   }
+   
+   /*móviles*/
+   @media screen and (min-width: 200px) and (max-width: 480px) {
+    #contenedor {
+     width: 90%;
+     margin: auto;
+    }
+    .item {
+     width: 90%;
+    }
+    }
